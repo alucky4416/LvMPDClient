@@ -16,21 +16,26 @@
 		<Item Name="subvi" Type="Folder">
 			<Item Name="cmd" Type="Folder">
 				<Item Name="LvMPDC_CMD_Close.vi" Type="VI" URL="../subvi/LvMPDC_CMD_Close.vi"/>
+				<Item Name="LvMPDC_CMD_currentsong.vi" Type="VI" URL="../subvi/LvMPDC_CMD_currentsong.vi"/>
 				<Item Name="LvMPDC_CMD_next.vi" Type="VI" URL="../subvi/LvMPDC_CMD_next.vi"/>
 				<Item Name="LvMPDC_CMD_Open.vi" Type="VI" URL="../subvi/LvMPDC_CMD_Open.vi"/>
 				<Item Name="LvMPDC_CMD_pause.vi" Type="VI" URL="../subvi/LvMPDC_CMD_pause.vi"/>
 				<Item Name="LvMPDC_CMD_ping.vi" Type="VI" URL="../subvi/LvMPDC_CMD_ping.vi"/>
 				<Item Name="LvMPDC_CMD_play.vi" Type="VI" URL="../subvi/LvMPDC_CMD_play.vi"/>
+				<Item Name="LvMPDC_CMD_playlist.vi" Type="VI" URL="../subvi/LvMPDC_CMD_playlist.vi"/>
 				<Item Name="LvMPDC_CMD_previous.vi" Type="VI" URL="../subvi/LvMPDC_CMD_previous.vi"/>
 				<Item Name="LvMPDC_CMD_status.vi" Type="VI" URL="../subvi/LvMPDC_CMD_status.vi"/>
 				<Item Name="LvMPDC_CMD_stop.vi" Type="VI" URL="../subvi/LvMPDC_CMD_stop.vi"/>
-				<Item Name="LvMPDC_SUB_ParseStatusReplyString.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseStatusReplyString.vi"/>
+				<Item Name="LvMPDC_SUB_ParseReplyString_CurrentSong.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_CurrentSong.vi"/>
+				<Item Name="LvMPDC_SUB_ParseReplyString_Playlist.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_Playlist.vi"/>
+				<Item Name="LvMPDC_SUB_ParseReplyString_Status.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_Status.vi"/>
 				<Item Name="LvMPDC_SUB_SendCmdAndRecvReply.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SendCmdAndRecvReply.vi"/>
 			</Item>
 			<Item Name="global" Type="Folder">
 				<Item Name="LvMPDC_Global_Setting.vi" Type="VI" URL="../subvi/LvMPDC_Global_Setting.vi"/>
 			</Item>
 			<Item Name="typdef" Type="Folder">
+				<Item Name="LvMPDC_Typdef_currentsong.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_currentsong.ctl"/>
 				<Item Name="LvMPDC_Typdef_Setting.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_Setting.ctl"/>
 				<Item Name="LvMPDC_Typdef_status.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_status.ctl"/>
 			</Item>
@@ -52,6 +57,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Split String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Split String.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
