@@ -17,6 +17,7 @@
 			<Item Name="cmd" Type="Folder">
 				<Item Name="LvMPDC_CMD_Close.vi" Type="VI" URL="../subvi/LvMPDC_CMD_Close.vi"/>
 				<Item Name="LvMPDC_CMD_currentsong.vi" Type="VI" URL="../subvi/LvMPDC_CMD_currentsong.vi"/>
+				<Item Name="LvMPDC_CMD_listallinfo.vi" Type="VI" URL="../subvi/LvMPDC_CMD_listallinfo.vi"/>
 				<Item Name="LvMPDC_CMD_next.vi" Type="VI" URL="../subvi/LvMPDC_CMD_next.vi"/>
 				<Item Name="LvMPDC_CMD_Open.vi" Type="VI" URL="../subvi/LvMPDC_CMD_Open.vi"/>
 				<Item Name="LvMPDC_CMD_pause.vi" Type="VI" URL="../subvi/LvMPDC_CMD_pause.vi"/>
@@ -26,6 +27,8 @@
 				<Item Name="LvMPDC_CMD_previous.vi" Type="VI" URL="../subvi/LvMPDC_CMD_previous.vi"/>
 				<Item Name="LvMPDC_CMD_status.vi" Type="VI" URL="../subvi/LvMPDC_CMD_status.vi"/>
 				<Item Name="LvMPDC_CMD_stop.vi" Type="VI" URL="../subvi/LvMPDC_CMD_stop.vi"/>
+				<Item Name="LvMPDC_SUB_convert_path2pathtext.vi" Type="VI" URL="../subvi/LvMPDC_SUB_convert_path2pathtext.vi"/>
+				<Item Name="LvMPDC_SUB_convert_pathtext2path.vi" Type="VI" URL="../subvi/LvMPDC_SUB_convert_pathtext2path.vi"/>
 				<Item Name="LvMPDC_SUB_ParseReplyString_CurrentSong.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_CurrentSong.vi"/>
 				<Item Name="LvMPDC_SUB_ParseReplyString_Playlist.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_Playlist.vi"/>
 				<Item Name="LvMPDC_SUB_ParseReplyString_Status.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_Status.vi"/>
@@ -39,6 +42,7 @@
 				<Item Name="LvMPDC_Typdef_Setting.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_Setting.ctl"/>
 				<Item Name="LvMPDC_Typdef_status.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_status.ctl"/>
 			</Item>
+			<Item Name="LvMPDC_SUB_ListDirectory.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ListDirectory.vi"/>
 			<Item Name="LvMPDC_SUB_ReadWriteConfigIni.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ReadWriteConfigIni.vi"/>
 			<Item Name="LvMPDC_SUB_SettingDialog.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SettingDialog.vi"/>
 		</Item>
