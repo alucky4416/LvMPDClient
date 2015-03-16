@@ -46,6 +46,7 @@
 			<Item Name="LvMPDC_SUB_ReadWriteConfigIni.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ReadWriteConfigIni.vi"/>
 			<Item Name="LvMPDC_SUB_SettingDialog.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SettingDialog.vi"/>
 		</Item>
+		<Item Name="LvMPDC_CMD_setvol.vi" Type="VI" URL="../subvi/LvMPDC_CMD_setvol.vi"/>
 		<Item Name="LvMPDClient.vi" Type="VI" URL="../LvMPDClient.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
