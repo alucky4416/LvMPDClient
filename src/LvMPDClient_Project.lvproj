@@ -47,6 +47,10 @@
 				<Item Name="LvMPDC_SUB_TCPRead.vi" Type="VI" URL="../subvi/LvMPDC_SUB_TCPRead.vi"/>
 				<Item Name="LvMPDC_SUB_ParseReplyString_LsInfo.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ParseReplyString_LsInfo.vi"/>
 				<Item Name="LvMPDC_SUB_DirScan.vi" Type="VI" URL="../subvi/LvMPDC_SUB_DirScan.vi"/>
+				<Item Name="LvMPDC_CMD_option_crossfade.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_crossfade.vi"/>
+				<Item Name="LvMPDC_CMD_option_consume.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_consume.vi"/>
+				<Item Name="LvMPDC_CMD_option_random.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_random.vi"/>
+				<Item Name="LvMPDC_CMD_option_single.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_single.vi"/>
 			</Item>
 			<Item Name="global" Type="Folder">
 				<Item Name="LvMPDC_Global_Setting.vi" Type="VI" URL="../subvi/LvMPDC_Global_Setting.vi"/>
@@ -61,6 +65,7 @@
 			<Item Name="LvMPDC_SUB_ReadWriteConfigIni.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ReadWriteConfigIni.vi"/>
 			<Item Name="LvMPDC_SUB_SettingDialog.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SettingDialog.vi"/>
 			<Item Name="LvMPDC_SUB_buildTreeView.vi" Type="VI" URL="../subvi/LvMPDC_SUB_buildTreeView.vi"/>
+			<Item Name="LvMPDC_SUB_PropertyPanel.vi" Type="VI" URL="../subvi/LvMPDC_SUB_PropertyPanel.vi"/>
 		</Item>
 		<Item Name="LvMPDClient.vi" Type="VI" URL="../LvMPDClient.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
@@ -85,13 +90,13 @@
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="ビルド仕様" Type="Build"/>
