@@ -51,6 +51,7 @@
 				<Item Name="LvMPDC_CMD_option_consume.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_consume.vi"/>
 				<Item Name="LvMPDC_CMD_option_random.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_random.vi"/>
 				<Item Name="LvMPDC_CMD_option_single.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_single.vi"/>
+				<Item Name="LvMPDC_SUB_PlaybackOptionPanel.vi" Type="VI" URL="../subvi/LvMPDC_SUB_PlaybackOptionPanel.vi"/>
 			</Item>
 			<Item Name="global" Type="Folder">
 				<Item Name="LvMPDC_Global_Setting.vi" Type="VI" URL="../subvi/LvMPDC_Global_Setting.vi"/>
@@ -61,6 +62,7 @@
 				<Item Name="LvMPDC_Typdef_MusicInfo.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_MusicInfo.ctl"/>
 				<Item Name="LvMPDC_Typdef_Setting.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_Setting.ctl"/>
 				<Item Name="LvMPDC_Typdef_status.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_status.ctl"/>
+				<Item Name="LvMPDC_Typdef_PlaybackOption.ctl" Type="VI" URL="../subvi/LvMPDC_Typdef_PlaybackOption.ctl"/>
 			</Item>
 			<Item Name="LvMPDC_SUB_ReadWriteConfigIni.vi" Type="VI" URL="../subvi/LvMPDC_SUB_ReadWriteConfigIni.vi"/>
 			<Item Name="LvMPDC_SUB_SettingDialog.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SettingDialog.vi"/>
@@ -68,6 +70,7 @@
 			<Item Name="LvMPDC_SUB_PropertyPanel.vi" Type="VI" URL="../subvi/LvMPDC_SUB_PropertyPanel.vi"/>
 		</Item>
 		<Item Name="LvMPDClient.vi" Type="VI" URL="../LvMPDClient.vi"/>
+		<Item Name="LvMPDC_SUB_SetPlaybackOption.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SetPlaybackOption.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
