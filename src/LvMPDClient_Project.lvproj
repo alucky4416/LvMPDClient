@@ -52,6 +52,8 @@
 				<Item Name="LvMPDC_CMD_option_random.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_random.vi"/>
 				<Item Name="LvMPDC_CMD_option_single.vi" Type="VI" URL="../subvi/LvMPDC_CMD_option_single.vi"/>
 				<Item Name="LvMPDC_SUB_PlaybackOptionPanel.vi" Type="VI" URL="../subvi/LvMPDC_SUB_PlaybackOptionPanel.vi"/>
+				<Item Name="LvMPDC_SUB_SetPlaybackOption.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SetPlaybackOption.vi"/>
+				<Item Name="LvMPDC_CMD_seek.vi" Type="VI" URL="../subvi/LvMPDC_CMD_seek.vi"/>
 			</Item>
 			<Item Name="global" Type="Folder">
 				<Item Name="LvMPDC_Global_Setting.vi" Type="VI" URL="../subvi/LvMPDC_Global_Setting.vi"/>
@@ -70,7 +72,6 @@
 			<Item Name="LvMPDC_SUB_PropertyPanel.vi" Type="VI" URL="../subvi/LvMPDC_SUB_PropertyPanel.vi"/>
 		</Item>
 		<Item Name="LvMPDClient.vi" Type="VI" URL="../LvMPDClient.vi"/>
-		<Item Name="LvMPDC_SUB_SetPlaybackOption.vi" Type="VI" URL="../subvi/LvMPDC_SUB_SetPlaybackOption.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -99,6 +100,7 @@
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="ビルド仕様" Type="Build"/>
