@@ -46,7 +46,14 @@ Playlistから指定したい曲のタイトルを右クリックして"Play to here"
 未実装。
 
 ### 再生オプション
-Repeat,Randomなどの設定 - 未実装。
+メニュー>>Edit>>PlaybackOptionで設定できます。
+
+設定項目
+  crossfade - クロスフェード
+  consume - 再生後Playlistから削除
+  random - ランダム再生
+  repeat - 繰り返し再生
+  single - 1曲だけ再生
 
 
 ## トラブルシューティング
