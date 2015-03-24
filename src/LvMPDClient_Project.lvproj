@@ -99,13 +99,6 @@
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
-				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 		</Item>
 		<Item Name="ビルド仕様" Type="Build">
@@ -132,7 +125,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/exe/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/マイ コンピュータ/misc/LvMPDClient.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9EEF250C-7292-4D45-802F-443C64EFF28B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE15B9E1-1774-4737-992B-367D8CFE6386}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/マイ コンピュータ/LvMPDClient.vi</Property>
@@ -140,7 +133,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LvMPDClient</Property>
-				<Property Name="TgtF_fileVersion.patch" Type="Int">1</Property>
+				<Property Name="TgtF_fileVersion.minor" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">LvMPDClient</Property>
 				<Property Name="TgtF_productName" Type="Str">LvMPDClient</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F6C3BDD8-1377-4ABD-9998-69901E2BCE55}</Property>
