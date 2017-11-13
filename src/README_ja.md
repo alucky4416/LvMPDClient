@@ -1,8 +1,8 @@
-# LvMPDClient　(開発中)
+# LvMPDClient
 
 ## 概要
 MPD(MusicPlayerDaemon)のクライアント LabVIEW版。
-MPDについては、http://www.musicpd.org/ を参照ください。
+MPDについては、https://www.musicpd.org/ を参照ください。
 
 ## 動作環境
 LabVIEW 2012
